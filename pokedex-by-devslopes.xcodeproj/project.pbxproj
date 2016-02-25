@@ -13,6 +13,7 @@
 		DA3959201C7F9E35002F82BD /* pokedex_by_devslopes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA39591E1C7F9E35002F82BD /* pokedex_by_devslopes.xcdatamodeld */; };
 		DA3959221C7F9E35002F82BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3959211C7F9E35002F82BD /* Assets.xcassets */; };
 		DA3959251C7F9E35002F82BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3959231C7F9E35002F82BD /* LaunchScreen.storyboard */; };
+		DA39592D1C7FA18A002F82BD /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = DA39592C1C7FA18A002F82BD /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA3959211C7F9E35002F82BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3959241C7F9E35002F82BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3959261C7F9E35002F82BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA39592C1C7FA18A002F82BD /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DA3959161C7F9E35002F82BD /* pokedex-by-devslopes */ = {
 			isa = PBXGroup;
 			children = (
+				DA39592C1C7FA18A002F82BD /* pokemon.csv */,
 				DA3959171C7F9E35002F82BD /* AppDelegate.swift */,
 				DA3959191C7F9E35002F82BD /* ViewController.swift */,
 				DA39591B1C7F9E35002F82BD /* Main.storyboard */,
@@ -128,6 +131,7 @@
 			files = (
 				DA3959251C7F9E35002F82BD /* LaunchScreen.storyboard in Resources */,
 				DA3959221C7F9E35002F82BD /* Assets.xcassets in Resources */,
+				DA39592D1C7FA18A002F82BD /* pokemon.csv in Resources */,
 				DA39591D1C7F9E35002F82BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
