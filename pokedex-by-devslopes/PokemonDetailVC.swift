@@ -23,6 +23,8 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoImg: UIImageView!
     @IBOutlet weak var evoLbl: UILabel!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
     
     
     
@@ -86,6 +88,21 @@ class PokemonDetailVC: UIViewController {
     @IBAction func backBtnPressed(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    
+    @IBAction func segmentedControllerChanged(sender: UISegmentedControl) {
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            descriptionLbl.text = pokemon.description
+        case 1:
+            descriptionLbl.text = pokemon.move
+        default:
+            break
+        }
+        
+        
+    }
+    
     
 
 

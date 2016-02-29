@@ -225,6 +225,9 @@
                                             <segment title="Moves"/>
                                         </segments>
                                         <color key="tintColor" red="0.97254901959999995" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="segmentedControllerChanged:" destination="Tz0-y5-rmb" eventType="valueChanged" id="CSY-zA-7xl"/>
+                                        </connections>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uV5-aL-K8v">
                                         <rect key="frame" x="0.0" y="49" width="560" height="120"/>
@@ -410,6 +413,7 @@
                         <outlet property="nameLbl" destination="CYv-tJ-7xb" id="sJ4-tz-5gP"/>
                         <outlet property="nextEvoImg" destination="Lcb-mm-W1T" id="LCP-Gr-r2w"/>
                         <outlet property="pokedexLbl" destination="ltg-fe-x6N" id="wUS-4u-Edy"/>
+                        <outlet property="segmentedControl" destination="Wtc-SX-YN8" id="7OX-Hb-bhp"/>
                         <outlet property="typeLbl" destination="9BP-Z3-4ia" id="q3V-NO-aom"/>
                         <outlet property="weightLbl" destination="pr6-sV-xu6" id="NWS-Ph-UrK"/>
                     </connections>
